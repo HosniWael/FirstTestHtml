@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'BallparkWeiner';
+    src: url('fonts/ballpark.eot');
+    src: url('fonts/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ballpark.woff') format('woff'),
+         url('fonts/ballpark.ttf') format('truetype'),
+         url('fonts/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Dayrom';
+    src: url('fonts/dayrom.eot');
+    src: url('fonts/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dayrom.woff') format('woff'),
+         url('fonts/dayrom.ttf') format('truetype'),
+         url('fonts/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background: url('images/fond_jaune.png');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+#bloc_page
+{
+    width: 900px;
+    margin: auto;   
+}
+header nav ul {
+    list-style: none;
+}
+header nav ul > li{
+    display: inline-block;
+    padding: 10px 20px;
+     
+}
+header nav ul > li a {
+    text-decoration:none;
+    font-size: 16px;
+    COLor :black;
+
+}
+header nav ul > li a:hover {color: blue;}
+
+
+.test {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    display: inline-block;
+  }
+  header h2
+  {color: darkblue;
+    font-size: larger;
+
+  }
+  .mes_amis{
+      color: darkblue;
+      font-size: larger;
+  }
+  h1{
+      color: darkblue;
+      font-size: larger;
+  }
